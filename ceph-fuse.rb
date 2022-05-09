@@ -1,7 +1,7 @@
 class CephFuse < Formula
   desc "Ceph FUSE"
   homepage "https://ceph.com"
-  url "https://github.com/ceph/ceph.git", :using => :git, :tag => "v14.2.5", :revision => "ad5bd132e1492173c85fda2cc863152730b16a92"
+  url "https://github.com/ceph/ceph.git", :using => :git, :tag => "nautilus-14.2.5"
   version "nautilus-14.2.5"
 
   bottle do
